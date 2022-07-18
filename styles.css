@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Rinstonia;
+    src: url(./fonts/Rinstonia.ttf) format("truetype");
+}
+
+:root {
+    --black: #000000;
+    --whitish-blue: #e3f3f8;
+    --white: #FFFFFF;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+p {
+    margin: 0;
+}
+
+.name-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    font-family: Rinstonia;
+    font-size: 12rem;
+    color: var(--whitish-blue);
+}
